@@ -62,7 +62,7 @@ module.exports = {
     ],
 
     // Max length of line code.
-    'max-len': ['warn', { code: 80 }],
+    // 'max-len': ['warn', { code: 80 }],
 
     // React Hooks rules.
     'react-hooks/rules-of-hooks': 'error',
