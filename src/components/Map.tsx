@@ -49,11 +49,11 @@ export default function Map({ className }:MapProps): JSX.Element {
 
   const defaultWmsLayers: IWmsLayer = {
     key: 1,
-    url: 'http://ide.regionmadrededios.gob.pe:9001/geoserver/goremadide/wms',
-    layers: 'goremadide:distritos,goremadide:prueba_shapefile_2022',
+    url: 'http://geoservermv.map-viewer-app.williamcondori.work/geoserver/map-viewer/wms',
+    layers: 'map-viewer:bosques',
     format: 'image/png',
     isTransparent: true,
-    attribution: '&copy; <a href="http://ide.regionmadrededios.gob.pe/portal/" target="_blank">Gobierno Regional de Madre de Dios</a>',
+    attribution: '&copy; <a href="http://williamcondori.work" target="_blank">William Condori Quispe</a>',
     version: '1.1.1',
   };
 
